@@ -3,13 +3,11 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import GameOverview from './game_overview'
+
+
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    GameOverview
   }
 })
